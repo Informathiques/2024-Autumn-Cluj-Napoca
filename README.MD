@@ -19,3 +19,9 @@ This script is designed for use in Google Colab and facilitates uploading and an
 ## Day3Student.ipynb
 
 This Python script, designed for use in Google Colab, combines several functionalities related to data fetching, visualization, and randomness. It first demonstrates fetching live weather data from the OpenWeatherMap API for Cluj-Napoca, Romania, processes the response to extract relevant fields like temperature, humidity, and wind speed, and displays this data in a pandas DataFrame. Next, it uses OpenStreetMap (OSM) via the osmnx library to fetch and visualize the street network around the city center of Cluj-Napoca within a specified radius, marking the city center on the map. The script also includes randomness-related functionalities such as generating random integers, floating-point numbers, and choices from a list, as well as performing a simulated random walk and visualizing it. Finally, it explores probability distributions by generating and plotting samples from uniform and normal distributions, comparing their characteristics visually using histograms.
+
+
+## Day4Student.ipynb
+
+This Python script, designed for use in Google Colab, demonstrates how to analyze the relationship between temperature and humidity using real-time weather data. It fetches a 5-day weather forecast for a specified city (default: Cluj-Napoca) from the OpenWeatherMap API, extracting temperature and humidity data for each time point in the forecast. Using the scipy.stats.pearsonr function, it calculates the Pearson correlation coefficient to quantify the strength and direction of the linear relationship between these two variables. The script also visualizes this relationship by plotting a scatter plot of temperature versus humidity, providing a clear view of their interaction. This workflow combines data fetching, statistical analysis, and visualization to explore environmental data trends.
+
