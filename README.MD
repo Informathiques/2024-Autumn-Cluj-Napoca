@@ -25,3 +25,19 @@ This Python script, designed for use in Google Colab, combines several functiona
 
 This Python script, designed for use in Google Colab, demonstrates how to analyze the relationship between temperature and humidity using real-time weather data. It fetches a 5-day weather forecast for a specified city (default: Cluj-Napoca) from the OpenWeatherMap API, extracting temperature and humidity data for each time point in the forecast. Using the scipy.stats.pearsonr function, it calculates the Pearson correlation coefficient to quantify the strength and direction of the linear relationship between these two variables. The script also visualizes this relationship by plotting a scatter plot of temperature versus humidity, providing a clear view of their interaction. This workflow combines data fetching, statistical analysis, and visualization to explore environmental data trends.
 
+## Day5Student.ipyn
+
+This Python script, designed for use in Google Colab, introduces fundamental concepts of data analysis and machine learning using numpy, matplotlib, and scikit-learn. It consists of three exercises:
+
+Exercise 1: Understanding Distributions
+This exercise demonstrates the difference between uniform and normal distributions by generating 10,000 random numbers from each distribution and visualizing their characteristics. The uniform distribution generates numbers evenly spread within a range, while the normal distribution follows a bell curve centered around the mean with a given standard deviation.
+
+Exercise 2: Linear Regression
+Using weather data from a CSV file (weather_data.csv), this exercise guides users to calculate regression coefficients with LinearRegression from scikit-learn. The goal is to model the relationship between input features and target variables, demonstrating how linear regression can predict trends in real-world data.
+
+Exercise 3: Weather Data Clustering
+This exercise involves classifying seasonal weather data from another CSV file (seasonal_weather_thw_Cluj-Napoca.csv) using the K-Means clustering algorithm. It showcases unsupervised learning techniques to group similar data points, enabling users to identify weather patterns.
+
+The script combines statistical analysis, regression modeling, and clustering, making it an excellent introduction to machine learning concepts applied to real-world datasets.
+
+
